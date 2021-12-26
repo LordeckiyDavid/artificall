@@ -56,7 +56,10 @@ body {
 .navbar, .main {
     background-color: rgba(3, 13, 31, 0.93);
 }
-
+.navbar-toggler {
+    border: 1px rgba(20, 52, 112, 0.93) solid;
+    background-color: rgba(20, 52, 112, 0.93);
+}
 /*Main*/
 
 .main {

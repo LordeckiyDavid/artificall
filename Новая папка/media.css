@@ -12,7 +12,7 @@
     .text-main h1, .main_text_service, .main_text_blog {
         font-size: 25px;
     }
-    .text-main p, .paragraph_service, .paragraph_blog {
+    .down-paragraph-main, .paragraph_service, .paragraph_blog {
         font-size: 15px;
     }
     .btn-sign a, .btn-service a, .btn-main {
@@ -22,10 +22,11 @@
         margin-right: 10px;
         font-size: 14px;
     }
-    .main-content img {
+    .main-content img, .service_content img, .slider_inner img, .blog_inner img {
         width: 40%;
         height: 40%;
     }
+
     .image-partners {
         display: flex;
     }
@@ -34,19 +35,11 @@
     }
 
     /*service*/
-    .service_content img {
-        width: 40%;
-        height: 40%;
-    }
     .btn-service {
         margin-top: 30px;
     }
 
     /*cards*/
-    .slider_inner img {
-        width: 40%;
-        height: 40%;
-    }
     .slider_main_text {
         font-size: 17px;
         padding-top: 30px;
@@ -62,10 +55,6 @@
     .blog {
         margin-top: 80px;
         margin-bottom: -150px;
-    }
-    .blog_inner img {
-        width: 40%;
-        height: 40%;
     }
     .main_text_blog {
        padding-bottom: 10px;
@@ -99,5 +88,67 @@
     }
     .link_footer {
         font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+
+    /*Nav and main*/
+
+    .navbar-brand img {
+        width: 50%;
+        height: 70%;
+    }
+    .main {
+        padding-top: 50px;
+    }
+    .text-main h1, .main_text_service, .main_text_blog {
+        font-size: 14px;
+    }
+    .up-paragraph-main, .down-paragraph-main, .paragraph_service, .paragraph_blog {
+        font-size: 12px;
+    }
+    .btn-service a, .btn-main {
+        font-size: 10px;
+        padding: 3px 13px;
+    }
+
+    /*cards*/
+
+    .slider_main_text {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .slider_inner {
+        padding: 20px 5px;
+    }
+    .paragraph_slider {
+        font-size: 11px;
+    }
+
+    /*footer*/
+    .information {
+        margin-right: 20px;
+    }
+    .footer_menu {
+        margin-right: -30px;
+    }
+    .left_side img {
+        width: 50%;
+        height: 10%;
+    }
+    .paragraph_footer, .contact, .paragraph_about_footer, .link_site, .language {
+        font-size: 9px;
+    }
+    .footer_menu {
+        width: 80%;
+    }
+    .information_footer, .footer_menu, .useful_links_footer {
+        padding-left: 1em;
+    }
+    .main_text_links {
+        font-size: 13px;
+    }
+    .link_footer {
+        font-size: 9px;
     }
 }
